@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.env
+MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/db
+JWT_SECRET=supersecretkey
+PORT=5000
